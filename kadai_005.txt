@@ -1,0 +1,22 @@
+PS C:\Users\User\git_tutorial> cd git_challenge
+Initialized empty Git repository in C:/Users/User/git_tutorial/git_challenge/.git/
+PS C:\Users\User\git_tutorial\git_challenge> git add hello_world.txt
+PS C:\Users\User\git_tutorial\git_challenge> git commit -m "hello_world.txtを追加" 
+[main (root-commit) 8470728] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\User\git_tutorial\git_challenge> git status
+PS C:\Users\User\git_tutorial\git_challenge> git status
+On branch main
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\User\git_tutorial\git_challenge> git add hello_world.txt
+PS C:\Users\User\git_tutorial\git_challenge> git commit -m ”日本語訳を追記"
+[main 3880a4b] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\User\git_tutorial\git_challenge> git log --oneline
+3880a4b (HEAD -> main) 日本語訳を追記
+8470728 hello_world.txtを追加
